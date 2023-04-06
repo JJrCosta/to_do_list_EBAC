@@ -39,6 +39,7 @@ form {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 form input {
@@ -48,10 +49,21 @@ form input {
     border: none;
 }
 
+p {
+    background-color: #e63a3a;
+    color: #fff;
+    font-size: 14px;
+    width: 96%;
+    top: 60;
+    text-align: center;
+    position:absolute;
+    display: none;
+}
+
 form button {
     width: 30%;
     padding: 10px 0;
-    margin-top: 15px;
+    margin-top: 30px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
