@@ -11,7 +11,7 @@ function newLine() {
     const newLine = `<li><span>${newTask.val()}</span></li>`;
     
     if (taskList.includes(newTask.val())) {
-        alert('tarefa ja foi incluida')
+        $('p').css("display","block" );
     } else {
         $(newLine).appendTo('ul');
         taskList.push(newTask.val());
