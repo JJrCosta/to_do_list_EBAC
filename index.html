@@ -7,6 +7,10 @@
     <title>To Do List</title>
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./style/main.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,12 +18,15 @@
     </header>
     <div class="container">
         <form>
-            <input type="text" id="input-task" placeholder="Inclua uma tarefa">
+            <input type="text" id="input-task" required placeholder="Inclua uma tarefa">
             <button type="submit" id="btn-add">+ Adicionar</button>
         </form>
         <ul class="task-list">
-            <li class="tasl-list-item"></li>
+            
         </ul>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./script/main.js"></script>
 </body>
 </html>
