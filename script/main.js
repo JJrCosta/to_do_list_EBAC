@@ -14,6 +14,7 @@ function newLine() {
         $('p').css("display","block" );
     } else {
         $(newLine).appendTo('ul');
+        $(newLine).fadeIn('1000);
         taskList.push(newTask.val());
     }
     
